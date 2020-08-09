@@ -1,0 +1,18 @@
+.hidden {
+  display: none;
+}
+
+div {
+  display: flex;
+}
+
+section {
+  flex-direction: column;
+  margin: 0 50px 0 10px;
+  height: 75vh;
+  overflow: scroll;
+}
+
+p {
+  line-height: 5px;
+}
