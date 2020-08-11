@@ -13,6 +13,6 @@ section {
   overflow: scroll;
 }
 
-p {
+.hours {
   line-height: 5px;
 }

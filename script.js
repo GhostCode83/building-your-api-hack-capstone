@@ -56,7 +56,7 @@ function renderFoursquareDetails(responseJson) {
      $('#js-results-detail-container').append(`<p>High Traffic Hours</p>`)
 
      for (let i = 0; i < locationPopularHours.length; i++) {
-          $('#js-results-detail-container').append(`<p>${locationPopularHours[i].days}: ${locationPopularHours[i].open[0].renderedTime}  </p>`)
+          $('#js-results-detail-container').append(`<p class='hours'>${locationPopularHours[i].days}: ${locationPopularHours[i].open[0].renderedTime}  </p>`)
 
      }
 }
